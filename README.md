@@ -1,5 +1,5 @@
 # AplicandoSASS-EstudioJuridico-Nardecchia
-Entrega Aplicando SASS, volcando los conceptos vistos en la clase SASS I y su repaso en una landing page para estudio jurídico.
+Entrega Aplicando SASS, volcando los conceptos vistos en la clase SASS I y su correspondiente repaso, en una landing page para estudio jurídico.
 
 Se utilizó como base el proyecto presentado con anterioridad, conjuntamente con sus archivos, buscando cuidar funcionalidad y orden en forma conjunta con la aplicación 
 del contenido de la Clase-13. 
