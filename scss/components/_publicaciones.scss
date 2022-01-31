@@ -1,0 +1,38 @@
+/* Inicio Sección Cuatro */
+
+.cabeza-publi {
+    font-family: $fuente1;
+    color: nth($color, 6);
+    text-shadow: $sombra;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.titu-publi {
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.card-group {
+    width: 80%;
+}
+
+.card-img-top {
+    border-top: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-left: 0.5px solid black;
+}
+
+.card-body {
+    background-color: nth($color, 4);
+    width: 100%;
+    border: 0.5px solid black;
+    font: black;
+}
+
+/* Fin Sección Cuatro */

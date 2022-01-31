@@ -1,0 +1,44 @@
+/* Inicio Sección Tres */
+
+#section-faq {
+    box-sizing: 80%;
+    width: 100%;
+    .img-faq {
+        width: 250px;
+        background-color: nth($color, 3);
+        height: auto;
+        border-radius: 8px;
+        text-align: center;
+        box-sizing: content-box;
+        border: 1px solid black;
+        cursor: default;
+        transition: all 600ms ease;
+        height: auto;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+        margin-bottom: 20px;
+    }
+}
+
+.cabeza-preguntas {
+            font-family: $fuente1;
+            color: nth($color, 6);
+            text-shadow: $sombra;
+            margin-bottom: 1rem;
+            letter-spacing: 0.2rem;
+            text-align: center;
+            font-weight: bold;
+        }
+.pregunta-uno, .pregunta-dos, .pregunta-tres {
+    font-size: 1em;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.collapse {
+    width: 80%;
+}
+
+/* Fin Sección Tres */

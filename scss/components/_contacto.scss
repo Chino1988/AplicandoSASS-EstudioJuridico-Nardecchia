@@ -1,0 +1,28 @@
+
+/* Inicio Footer */
+
+footer {
+    background-color: nth($color, 3);
+    .contacto {
+        font-family: $fuente1;
+        color: black;
+        margin-bottom: 1rem;
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 10px;
+        font-weight: bolder;
+    }
+}
+
+.btn-ig {
+    background-color: rgb(225,48,108);
+}
+
+.container-redes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* Fin Footer */

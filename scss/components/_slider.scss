@@ -1,0 +1,21 @@
+/* Sección Uno */
+
+.bn-lista {
+    background-color: nth($color, 1);
+    border-radius: nth($bordes, 1);
+    size: 0.2em;
+}
+
+.bn-slider {
+    width: 80%;
+    border-radius: nth($bordes, 2);
+}
+
+.content-uno, .content-dos, .content-tres, .content-cuatro {
+    background-color: nth($color, 2);
+    border-radius: nth($bordes, 2);
+    font-size: 1em;
+    font-family: $fuente2;
+}
+
+/* Fin Sección Uno */

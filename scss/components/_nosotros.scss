@@ -1,0 +1,52 @@
+/* Inicio Sección Dos */
+
+.cabeza-nosotros {
+    font-family: $fuente1;
+    color: nth($color, 6);
+    text-shadow: $sombra;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    font-weight: bold;
+    .titu-nos {
+        font-weight: bolder;
+        font-style: italic;
+        text-align: center;
+    }
+}
+
+.img-cortes {
+    width: 300px;
+    border: 1px solid black;
+    cursor: default;
+    transition: all 600ms ease;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    background-color: #E0E2E4;
+    text-align: center;
+    &:hover {
+        transform: translateY(-2%);
+    }
+}
+
+.img-barro, .img-rodri, .img-garay {
+    width: 300px;
+    border: 1px solid black;
+    cursor: default;
+    transition: all 600ms ease;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    background-color: #E0E2E4;
+    text-align: center;
+    &:hover {
+        transform: translateY(-2%)
+    }
+}
+
+/* Fin Sección Dos */
